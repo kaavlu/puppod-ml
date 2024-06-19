@@ -1,0 +1,2 @@
+GameState,DogId,SessionId,UserId,DispenserId,ToyId,Email,ModifiedCreatedTime,GameTelemetry,IsGameEnded,NumberStars,UserFeedback,MoreProperties,StartGameLatency,EndGameLatency,DidGameStart,WasGameStopCommandSent,DidGameStop,GameStoppedAutomatically,DidPostProcess,GameTime
+14,d4116f72-ff3a-4573-9bae-feb49dad0241,8EDD3C9E-1025-4CDE-9AD9-88D4B1A09FEE,67ecbcd7-f29c-494e-ae22-840a4a5a7ca4,4401BB25128E,EBBE542AD2B5FD2C,scottieracer@gmail.com,10/27/2021 17:03:41
