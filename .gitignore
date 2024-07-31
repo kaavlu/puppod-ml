@@ -1,3 +1,6 @@
 myenv/
 venv/
 env/
+data/total_data.json
+data/total_data1.json
+data/total_data2.json

@@ -4,18 +4,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Assuming the JSON file paths (update with actual paths)
-json_file_path1 = 'total_data1.json'
-json_file_path2 = 'total_data2.json'
+json_file_path = '/Users/manavk/Documents/puppod/puppod-ml/data/total_data.json'
 
-# Read the JSON files
-with open(json_file_path1, mode='r') as json_file1:
-    data_part1 = json.load(json_file1)
+with open(json_file_path, mode='r') as json_file:
+    data = json.load(json_file)
 
-with open(json_file_path2, mode='r') as json_file2:
-    data_part2 = json.load(json_file2)
 
-# Merge the two parts of the data
-data = {**data_part1, **data_part2}
 
 # Extract the "lifetime_stats" for each dog and relevant fields
 lifetime_data = []
