@@ -66,9 +66,9 @@ def csv_to_json(game_file_path, dog_file_path, json_file_path1, json_file_path2,
 # Define your CSV file paths and JSON file paths
 game_file_path = 'data/filtered/GameSessions_filtered.csv'
 dog_file_path = 'data/filtered/dog_filtered.csv'
-json_file_path1 = 'total_data1.json'
-json_file_path2 = 'total_data2.json'
-total_json_file_path = 'total_data.json'
+json_file_path1 = 'data/total_data1.json'
+json_file_path2 = 'data/total_data2.json'
+total_json_file_path = 'data/total_data.json'
 
 # Call the function to convert CSV to JSON, save the complete data, and split the data
 csv_to_json(game_file_path, dog_file_path, json_file_path1, json_file_path2, total_json_file_path)
