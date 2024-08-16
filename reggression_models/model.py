@@ -100,18 +100,18 @@ def runModel(parameters, target, targetDog):
     return model.predict(targetDog_encoded)
 
 def main():
-    parameters = ['Age', 'Gender', 'Primary_Breed']
-    target = 'LifeTimeStats_SuccessRate'
+    parameters = ['LifeTimeStats_SuccessRate', 'Gender', 'Primary_Breed']
+    target = 'Age'
 
     targetDog = {
-        'Age': 4,
+        'LifeTimeStats_SuccessRate': "97.36842105263158",
         'Gender': 'BOY',
         'Primary_Breed': 'Goldendoodle'
     }
 
-    # Predict the success rate
-    predicted_success_rate = runModel(parameters, target, targetDog)
-    print(f"Predicted Success Rate: {predicted_success_rate[0]}")
+    # Predict the target
+    prediction = runModel(parameters, target, targetDog)
+    print(f"Predicted {target}: {prediction[0]}")
 
 
 if __name__ == "__main__":
