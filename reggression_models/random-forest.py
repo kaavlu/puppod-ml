@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder
 # Assuming your JSON data is already loaded as a dictionary
 def random_forest_regression(age, gender, breed):
     # Load the JSON data directly
-    with open('/Users/manavk/Documents/puppod/puppod-ml/data/total_data.json') as f:
+    with open('/data/total_data.json') as f:
         json_data = json.load(f)  # json.load is correct for loading from a file
 
     # Convert JSON data to a pandas DataFrame
